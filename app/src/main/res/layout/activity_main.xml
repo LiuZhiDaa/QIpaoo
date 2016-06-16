@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qipaoo.MainActivity">
+    <com.example.qipaoo.PeriscopeLayout
+        android:id="@+id/periscope"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:background="#d2d2c9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/ic_thumb_up_pink_a100_36dp"
+            android:id="@+id/btn"
+            android:text="动动"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        </com.example.qipaoo.PeriscopeLayout>
+
+</RelativeLayout>
